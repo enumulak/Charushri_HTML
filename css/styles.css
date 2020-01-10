@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2C3A47;
+}
+
+p {
+    color: #6D214F;
+}
+
+a {
+    color: white;
+}
+
+.navbar {
+    border-bottom: white 3px solid;
+    opacity: 0.8;
+}
+
+.bg-custom {
+    background: rgb(61, 0, 113);
+    background-image: linear-gradient(109.6deg, rgba(74, 117, 242, 1) 11.2%, rgba(113, 76, 242, 1) 91.3%);
+}
+
+.section {
+    border-bottom: #d1d8e0 1px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#home {
+    height: auto;
+    padding-top: 120px;
+}
+
+
+
+
+
