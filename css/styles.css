@@ -20,6 +20,14 @@ a {
     color: white;
 }
 
+.height-auto {
+    height: auto;
+}
+
+.top-border-custom {
+    border-top: #d1d8e0 1px solid;
+}
+
 .navbar {
     border-bottom: white 3px solid;
     opacity: 0.8;
@@ -31,7 +39,7 @@ a {
 }
 
 .section {
-    border-bottom: #d1d8e0 1px solid;
+    /* border-bottom: #d1d8e0 1px solid; */
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -40,6 +48,12 @@ a {
     height: auto;
     padding-top: 120px;
 }
+
+#main-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 
 
 
