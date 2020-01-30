@@ -61,16 +61,16 @@
                     <h2 class="font-weight-lighter">Counselling Psychologist, Podcaster</h2>
 
                     <nav class="nav justify-content-center mt-5 mb-5">
-                        <a href="https://facebook.com/charushri.suhaney" class="nav-link" target="_blank">
+                        <a href="https://facebook.com/charushri.suhaney" class="nav-link" target="_blank" data-toggle="tooltip" data-placement="top" title="I'm on Facebook">
                             <img src="./img/icons/facebook.png" class="img-fluid" style="max-height: 32px;">
                         </a>
-                        <a href="https://instagram.com/charushri.suhaney" class="nav-link" target="_blank">
+                        <a href="https://instagram.com/charushri.suhaney" class="nav-link" target="_blank" data-toggle="tooltip" data-placement="top" title="Follow me on Instagram">
                             <img src="./img/icons/instagram.png" class="img-fluid" style="max-height: 32px;">
                         </a>
-                        <a href="https://linkedin.com/in/charushri-suhaney-417a6017" class="nav-link" target="_blank">
+                        <a href="https://linkedin.com/in/charushri-suhaney-417a6017" class="nav-link" target="_blank" data-toggle="tooltip" data-placement="top" title="I'm on Linkedin">
                             <img src="./img/icons/linkedin.png" class="img-fluid" style="max-height: 32px;">
                         </a>
-                        <a href="https://www.stitcher.com/s?fid=444095&refid=asa" class="nav-link" target="_blank">
+                        <a href="https://www.stitcher.com/s?fid=444095&refid=asa" class="nav-link" target="_blank" data-toggle="tooltip" data-placement="top" title="Listen to my podcast">
                             <img src="./img/icons/podcast.png" class="img-fluid" style="max-height: 32px;">
                         </a>
                     </nav>
@@ -215,7 +215,7 @@
         <footer class="height-auto border-top" id="main-footer">
             <div class="row">
                 <div class="col-md-6 text-left">
-                    <p class="ml-1">&copy; 2020. All Rights Reserved.</p>
+                    <p class="ml-1">&copy; <span id="year"></span>. All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6 text-right">
                     
@@ -233,6 +233,11 @@
     <script>
         // Get the Current Year for CopyRight (Use a Span tag with the ID wherever required)
         $('#year').text(new Date().getFullYear());
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+
     </script>
 </body>
 </html>
